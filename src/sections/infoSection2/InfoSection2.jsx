@@ -3,7 +3,7 @@ import { Button2 } from "../../components/button/Button";
 
 function InfoSection2() {
   return (
-    <div className="container flex flex-row gap-5 md:mx-auto lg:mx-auto xl:mx-auto  my-20 sm:flex-col sm:text-center md:p-10 mx-auto px-10 items-center justify-center">
+    <div className="container flex flex-row items-center justify-center gap-5 px-10 mx-auto my-20 md:mx-auto lg:mx-auto xl:mx-auto sm:flex-col sm:text-center md:p-10">
       <div className="flex flex-col gap-5 sm:items-center md:pl-12">
         <h3 className="font-poppins-semibold text-primary text-[24px] font-semibold">
           Digital Strategy Consulting
@@ -17,7 +17,7 @@ function InfoSection2() {
         </p>
         <Button2 text={"LEARN MORE"} />
       </div>
-      <img src="src\assets\search.svg" className="w-[346px] h-[346px]" />
+      <img src="../src/assets/search.svg" className="w-[346px] h-[346px]" />
     </div>
   );
 }
