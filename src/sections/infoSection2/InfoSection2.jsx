@@ -17,7 +17,7 @@ function InfoSection2() {
         </p>
         <Button2 text={"LEARN MORE"} />
       </div>
-      <img src="../src/assets/search.svg" className="w-[346px] h-[346px]" />
+      <img src="../src/assets/images/search.svg" className="w-[346px] h-[346px]" />
     </div>
   );
 }

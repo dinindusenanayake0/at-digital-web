@@ -11,7 +11,7 @@ const NavBar = () => {
           <div className="flex grow">
             <div className="flex-shrink-0">
               <a href="#" className="text-white ">
-                <img src="../src/assets/logo.svg" alt="Logo" />
+                <img src="../src/assets/images/logo.svg" alt="Logo" />
               </a>
             </div>
           </div>

@@ -6,7 +6,7 @@ function Footer() {
       <div className="flex flex-row lg:flex-row lg:px-12 lg:justify-between xl:gap-[35rem] md:flex-col sm:flex-col ">
         <div className="flex flex-col gap-5 md:pb-10 sm:pb-10">
           <a href="#">
-            <img src="../src/assets/logo.svg" alt="Company Logo" />
+            <img src="../src/assets/images/logo.svg" alt="Company Logo" />
           </a>
           <p className="max-w-[438px] text-white">
             Your goal is our target. Not anything in between. We use online

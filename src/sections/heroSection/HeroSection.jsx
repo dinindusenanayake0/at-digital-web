@@ -7,7 +7,7 @@ function HeroSection() {
       {/* Hero Section Image */}
       <div>
         <img
-          src="../src/assets/header image.png"
+          src="../src/assets/images/header image.png"
           alt="Header section image"
           className="relative w-full"
         />
