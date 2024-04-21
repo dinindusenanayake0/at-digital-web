@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { IoMenu, IoClose } from "react-icons/io5";
+import Logo from "../../assets/images/logo.svg"
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,7 @@ const NavBar = () => {
           <div className="flex grow">
             <div className="flex-shrink-0">
               <a href="#" className="text-white ">
-                <img src="../src/assets/images/logo.svg" alt="Logo" />
+                <img src={Logo} alt="Logo" />
               </a>
             </div>
           </div>
