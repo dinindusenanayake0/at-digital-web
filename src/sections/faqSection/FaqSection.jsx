@@ -1,5 +1,5 @@
 import React from "react";
-import Plus from "../src/assets/plusicon.svg"
+import Plus from "../../assets/images/plusicon.svg"
 
 function FaqSection() {
   return (

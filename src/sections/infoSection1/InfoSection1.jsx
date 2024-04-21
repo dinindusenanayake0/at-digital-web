@@ -1,6 +1,6 @@
 import React from "react";
 import { Button2 } from "../../components/button/Button";
-import Web from "../src/assets/images/web.svg"
+import Web from "../../assets/images/web.svg"
 
 function InfoSection1() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { Button1 } from "../../components/button/Button";
-import HeroImage from "../src/assets/images/header image.png"
+import HeroImage from "../../assets/images/header image.png"
 
 function HeroSection() {
   return (
