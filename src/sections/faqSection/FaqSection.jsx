@@ -1,4 +1,5 @@
 import React from "react";
+import Plus from "../src/assets/plusicon.svg"
 
 function FaqSection() {
   return (
@@ -13,7 +14,7 @@ function FaqSection() {
               Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?
             </p>
             <img
-              src="../src/assets/plusicon.svg"
+              src={Plus}
               alt="Toggle Icon"
               className="cursor-pointer"
             />
@@ -30,7 +31,7 @@ function FaqSection() {
               Lorem ipsum dolor sit amet consectetur. Faucibus scelerisque nunc?
             </p>
             <img
-              src="../src/assets/plusicon.svg"
+              src={Plus}
               alt="Toggle Icon"
               className="cursor-pointer"
             />
@@ -42,7 +43,7 @@ function FaqSection() {
               Lorem ipsum dolor sit amet consectetur. Faucibus scelerisque nunc?
             </p>
             <img
-              src="../src/assets/plusicon.svg"
+              src={Plus}
               alt="Toggle Icon"
               className="cursor-pointer"
             />

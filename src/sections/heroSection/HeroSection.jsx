@@ -1,5 +1,6 @@
 import React from "react";
 import { Button1 } from "../../components/button/Button";
+import HeroImage from "../src/assets/images/header image.png"
 
 function HeroSection() {
   return (
@@ -7,7 +8,7 @@ function HeroSection() {
       {/* Hero Section Image */}
       <div>
         <img
-          src="../src/assets/images/header image.png"
+          src={HeroImage}
           alt="Header section image"
           className="relative w-full"
         />

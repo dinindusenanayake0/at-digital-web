@@ -1,10 +1,11 @@
 import React from "react";
 import { Button2 } from "../../components/button/Button";
+import Web from "../src/assets/images/web.svg"
 
 function InfoSection1() {
   return (
     <div className="container flex flex-row items-center justify-center gap-5 px-10 mx-auto my-20 md:mx-auto sm:flex-col sm:text-center lg:mx-auto xl:mx-auto ">
-      <img src="../src/assets/images/web.svg" className="w-[346px] h-[346px]" />
+      <img src={Web} className="w-[346px] h-[346px]" />
       <div className="flex flex-col gap-5 sm:items-center md:pr-12">
         <h3 className="font-poppins-semibold text-primary text-[24px] font-semibold">
           Web & Mobile App Development

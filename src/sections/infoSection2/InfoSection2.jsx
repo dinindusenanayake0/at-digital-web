@@ -1,5 +1,6 @@
 import React from "react";
 import { Button2 } from "../../components/button/Button";
+import Search from "../src/assets/images/search.svg"
 
 function InfoSection2() {
   return (
@@ -17,7 +18,7 @@ function InfoSection2() {
         </p>
         <Button2 text={"LEARN MORE"} />
       </div>
-      <img src="../src/assets/images/search.svg" className="w-[346px] h-[346px]" />
+      <img src={Search} className="w-[346px] h-[346px]" />
     </div>
   );
 }
