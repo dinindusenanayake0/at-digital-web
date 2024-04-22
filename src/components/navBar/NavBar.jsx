@@ -12,7 +12,7 @@ const NavBar = () => {
           <div className="flex grow">
             <div className="flex-shrink-0">
               <a href="#" className="text-white ">
-                <img src={Logo} alt="Logo" />
+                <img src={Logo} alt="Logo" className="sm:w-3/4" />
               </a>
             </div>
           </div>
@@ -27,7 +27,7 @@ const NavBar = () => {
           <div className="flex -mr-2 md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 text-5xl text-white transition duration-150 ease-in-out rounded-md xl:hidden lg:hidden md:hidden hover:text-gray-500"
+              className="inline-flex items-center justify-center p-2 text-5xl text-white transition duration-150 ease-in-out rounded-md sm:text-4xl xl:hidden lg:hidden md:hidden hover:text-gray-500"
             >
               {isOpen ? <IoClose /> : <IoMenu />}
             </button>
